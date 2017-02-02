@@ -5,3 +5,5 @@
 ## Announcements
 
 - **1/30/2017** Discussion board is up.  Please visit [https://gitter.im/cs2013-spring-2017](https://gitter.im/cs2013-spring-2017/Lobby) for real-time discussion.
+
+- **2/1/2017** Source code has been added.
