@@ -14,8 +14,8 @@ public class SumNumber {
    * induction step: increment number,
    *    add number to fn with incremented number
    *    return value from above
-   *
-      print(number + 1);   */
+   *    print(number + 1);
+   */
 
   int calc(final int number) {
     // base case

@@ -11,8 +11,8 @@ public class PrintNumbers {
   /*
    * base case: number = N
    * induction step: increment number, call fn with number
-   *
-      print(number + 1);   */
+   * print(number + 1);
+   */
 
   void print(final int number) {
     // base case
