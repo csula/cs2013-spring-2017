@@ -1,0 +1,53 @@
+
+A -- plain english 
+  1. base case: when number matches target
+  2. induction step: calculate lb, up & call function with lb, ub
+
+B -- pseudo code
+
+lb = 1
+ub = 100
+target = rand(lb, ub)
+guess_number(lb, ub) {
+   number = input(lb, ub)
+   // base case
+   if (number == target) {
+     // done
+     return
+   } else { 
+   // induction step
+     if (number < target) {
+       ub = lb + (ub - lb)/2 
+     } else {
+       lb = lb + (ub - lb)/2
+     }
+     guess_number(lb, ub)
+   }
+}
+
+C -- write code! (leave as an exercise to my lovely students)
+
+---
+
+A. -- plain English
+   1. base case: when left == right || char(left) != char(right)
+   2. induction step: calculate left and right, call fn with left & right
+
+B. -- pseudo code
+
+palindrone(left, right) {
+   // base case
+   if (left == right || char_at(left) != char_at(right) {
+     // done (with appropriate message)
+     return
+   } else {
+     // induction step
+     left++; right--;
+     palidrone(left,right)
+   }
+
+}
+
+-- anagrams
+
+http://www.toves.org/books/java/ch18-recurex/

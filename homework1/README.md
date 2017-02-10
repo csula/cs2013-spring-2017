@@ -11,7 +11,7 @@ Using the above information your homework is consisted of two parts:
 
 1. Write a program that will generate a random deck of 52 cards.  The cards are arranged in random order.  Write a recursive program to determine the location of the highest priority card and the lowest priority card.  Your program must be recursive and that you can only have one search function.
 
-2. Write a program that will print out all possible combinations for three, four and five cards when indepently.
+2. Write a program that will print out all possible combinations for three randomly selected cards.  Repeat for four and five.
 
 Your programs for above must be recursive and must use generics; however you can create own `Card` class.
 
