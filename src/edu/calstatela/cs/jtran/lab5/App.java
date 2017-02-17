@@ -19,5 +19,13 @@ public class App {
 		for (int j = 0; j < 3; j++) {
 			System.out.println( ll.remove() );
 		}
+		
+		LLStack<String> lls = new LLStack<String>();
+		lls.push( "red" );
+		lls.push( "white" );
+		lls.push( "blue" );
+		for (int k = 0; k < 3; k++) {
+			System.out.println( lls.pop() );
+		}
 	}
 }
