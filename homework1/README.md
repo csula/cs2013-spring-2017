@@ -13,7 +13,15 @@ Using the above information your homework is consisted of two parts:
 
 2. Write a program that will print out all possible combinations for three randomly selected cards.  Repeat for four and five.
 
-Your programs for above must be recursive and must use generics; however you can create own `Card` class.
+Your programs for above must be recursive and must use `generics`; however you can create own `Card` class.
+
+3. Write a priority queue (from scratch) that will allow for you to insert and remove numbers (`Integer`) from a queue with the priority being defined as followed:
+
+- An even number has higher priority than an odd number
+- Multiples of `threes` has higher priority than other numbers
+- A number with a lower numeric value of a number has higher priority
+
+
 
 ## Grading Scale/Criteria
 
