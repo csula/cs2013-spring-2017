@@ -41,6 +41,8 @@ public class MyPriorityQueue<E> {
 		return item;
 	}
 	
+	public boolean isEmpty() { return container.size() == 0; }
+	
 	private Comparator<E> comparator;
 	private ArrayList<E> container;
 }
