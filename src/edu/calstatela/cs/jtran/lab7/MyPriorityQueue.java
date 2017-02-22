@@ -24,6 +24,27 @@ public class MyPriorityQueue<E> {
 		}
 	}
 	
+	public E max() {
+		int max_idx = max(0, 0);
+		return container.get(max_idx);
+	}
+	
+	public int max(int max_idx, int cur_idx) {
+		if (cur_idx == container.size() - 1) {
+			// base case
+			return max_idx;
+		} else {
+			// induction step
+			E maxObject = container.get( max_idx );
+			E curObject = container.get( cur_idx );
+			if (comparator.compare(maxObject, curObject) == 1) {
+				return max(max_idx, cur_idx + 1);
+			} else {
+				return max(cur_idx, cur_idx + 1);
+			}
+		}
+	}
+	
 	public E remove() {
 		E max = container.get( 0 );
 		int max_idx = 0;

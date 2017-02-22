@@ -18,10 +18,11 @@ public class App {
 			final int MAX = 20;
 			MyPriorityQueue<Integer> pq = 
 					new MyPriorityQueue<Integer>( new MyComparator() );
-			for (int i = 0; i < 10; i++) {
+			for (int i = 0; i < 5; i++) {
 				pq.insert( new Integer((int) (Math.random() * MAX + 1)) );
 			}
 			pq.dump(); // see what's in the queue
+			System.out.println("max is " + pq.max() );
 			System.out.println("--");
 			emptyTheQueue( pq );
 		} catch (Exception e) {
