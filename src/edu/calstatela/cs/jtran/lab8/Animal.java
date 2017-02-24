@@ -7,4 +7,8 @@ public class Animal {
 		this.breed = breed;
 		this.gender = gender;
 	}
+	
+	public String toString() {
+		return gender + " " + breed;
+	}
 }
