@@ -9,15 +9,30 @@
 
 A deck of card is said to a priority scheme its ranks.  For example, a King has a higher priority than a Queen.  Similarly a Queen has a higher priority than a Jack and so on so forth.  Finally, a 2 has higher priority than an Ace.  Within a rank, the order of priority is Diamond, then Heart, then Club, then Spade.
 
-1. Write a program that will generate a random deck of 52 cards.  The cards are arranged in random order.  Write a recursive program to determine the location of the highest priority card and the lowest priority card.  Your program must be recursive and that you can only have one search function.
+```
+King of Diamond > King of Heart > .. > Queen of Diamond > ... > Ace of Spade
+```
 
-2. Write a program that will print out all possible combinations for three randomly selected cards.  Repeat for four and five.
+Given a deck of 52 cards and the cards are arranged in random order and using this random deck of card, perform the following tasks:
 
-Your programs for above must be recursive and must use `generics`; however you can create own `Card` class.
+1. With recursion, determine the location (index position) of the highest priority card and the lowest priority card.  Your code must only contain one recursive `search(...)` method.  The output should look like this:
+
+```
+King of Diamond at location 12
+Ace of Spade at location 45
+```
+
+2. Randomly select `N` cards and using recursion, print out all possible combinations for the selected cards.  Test your code against three, four and five randomly selected cards.
+
+Note the following:
+
+- The recursive `search` method should look for for a card with `max` and `min` values and must not be hard-coded to search for `King of Diamond` and `Ace of Spade`.  This is because if the order of priority changes, you do not need to change the search function itself.
+
+- Your code for above must be implemented with `generics` because it would work for different data type, e.g. something other than cards.
 
 ### Priority Queue
 
-1. Write a priority queue (from scratch) that will allow for you to insert and remove numbers (`Integer`) from a queue with the priority being defined as followed:
+Write a priority queue (from scratch) that will allow for you to insert and remove numbers (`Integer`) from a queue with the priority being defined as followed:
 
 - An even number has higher priority than an odd number
 - Multiples of `threes` has higher priority than other numbers
