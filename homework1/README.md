@@ -15,14 +15,14 @@ King of Diamond > King of Heart > .. > Queen of Diamond > ... > Ace of Spade
 
 Given a deck of 52 cards and the cards are arranged in random order and using this random deck of card, perform the following tasks:
 
-1. With recursion, determine the location (index position) of the highest priority card and the lowest priority card.  Your code must only contain one recursive `search(...)` method.  The output should look like this:
+* With recursion, determine the location (index position) of the highest priority card and the lowest priority card.  Your code must only contain one recursive `search(...)` method.  The output should look like this:
 
 ```
 King of Diamond at location 12
 Ace of Spade at location 45
 ```
 
-2. Randomly select `N` cards and using recursion, print out all possible combinations for the selected cards.  Test your code against three, four and five randomly selected cards.
+* Randomly select `N` cards and using recursion, print out all possible combinations for the selected cards.  Test your code against three, four and five randomly selected cards.
 
 Note the following:
 
