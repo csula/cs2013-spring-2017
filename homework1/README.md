@@ -10,7 +10,7 @@
 A deck of card is said to a priority scheme its ranks.  For example, a King has a higher priority than a Queen.  Similarly a Queen has a higher priority than a Jack and so on so forth.  Finally, a 2 has higher priority than an Ace.  Within a rank, the order of priority is Diamond, then Heart, then Club, then Spade.
 
 ```
-King of Diamond > King of Heart > .. > Queen of Diamond > ... > Ace of Spade
+King of Diamonds > King of Hearts > .. > Queen of Diamonds > ... > Ace of Spades
 ```
 
 Given a deck of 52 cards and the cards are arranged in random order and using this random deck of card, perform the following tasks:
@@ -18,8 +18,8 @@ Given a deck of 52 cards and the cards are arranged in random order and using th
 * With recursion, determine the location (index position) of the highest priority card and the lowest priority card.  Your code must only contain one recursive `search(...)` method.  The output should look like this:
 
 ```
-King of Diamond at location 12
-Ace of Spade at location 45
+King of Diamonds at location 12
+Ace of Spades at location 45
 ```
 
 * Randomly select `N` cards and using recursion, print out all possible combinations for the selected cards.  Test your code against three, four and five randomly selected cards.
