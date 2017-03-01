@@ -4,7 +4,7 @@ public class Card implements Comparable<Card> {
 	String suit;
 	String rank;
 	
-	Card(final String suit, final String rank) {
+	Card(final String rank, final String suit) {
 		this.suit = suit;
 		this.rank = rank;
 	}
