@@ -12,3 +12,4 @@
 
 - **2/16/2017** Please review the updated homework 1 write up for the last part.
 
+- **2/17/2017** Homework 1 Extended.
