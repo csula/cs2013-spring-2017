@@ -13,12 +13,48 @@ public class Card implements Comparable<Card> {
 		this.rank = rank;
 	}
 	
-	public int compareTo(Card other) {
-		// need to update according to priority in homework writeup
-		if (suit.equals(other.suit) && rank.equals(other.rank) ) {
+	private int getRankNumber() {
+		if (rank == "King") {
+			return 13;
+		} else if (rank == "Queen") {
+			return 12;
+		} /* ... */ else {
 			return 0;
-		} else {
+		}
+	}
+	
+	private int getSuitNumber() {
+		if (suit == "diamonds") {
+			return 4;
+		} else if (suit == "hearts") {
+			return 3;
+		} /* ... */ {
 			return 1;
+		}
+	}
+	
+	public int compareTo(Card other) {
+		int myRank = getRankNumber();
+		int hisRank = other.getRankNumber();
+		int mySuit = getSuitNumber();
+		int hisSuit = other.getSuitNumber();
+		
+		if (myRank == hisRank) {
+		  if (mySuit == hisSuit) {
+			  return 0;
+		  } else {
+			  if (mySuit > hisSuit) {
+				  return 1;
+			  } else {
+				  return -1;
+			  }
+		  }
+		} else {
+			if (myRank > hisRank ) {
+				return 1;
+			} else {
+				return -1;
+			}
 		}
 	}
 

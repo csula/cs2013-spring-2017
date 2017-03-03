@@ -22,7 +22,8 @@ public class App {
 		final int UPPER_BOUND = 10;
 		final int LOWER_BOUND = 0;
 		
-		MyPriorityQueue<Integer> pq = new MyPriorityQueue<Integer>();
+		MyPriorityQueue<Integer> pq =
+				new MyPriorityQueue<Integer>( new MyComparator() );
 		for (int i = 0; i < 10; i++) {
 			pq.insert( LOWER_BOUND + (int) Math.random() * UPPER_BOUND);
 		}
@@ -30,5 +31,17 @@ public class App {
 		for (int i = 0; i < 10; i++) {
 			System.out.println( pq.remove() );
 		}
+		
+		// bonus
+		MyPriorityQueue<Card> pq2 =
+				new MyPriorityQueue<Card>( new CardComparator() );
+
+		pq2.insert( new Card("Queen", "Spades") );
+		pq2.insert( new Card("King", "Diamonds") );
+		pq2.insert( new Card("3", "Clubs") );
+		
+		System.out.println( pq2.remove() );
+		System.out.println( pq2.remove() );
+		System.out.println( pq2.remove() );
 	}
 }
