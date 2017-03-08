@@ -1,7 +1,8 @@
 package edu.calstatela.cs.jtran.hw2;
 
 public class App {
-	public static void main(String[] args) throws Exception {
+	
+	public void runTest() {
 		Deck<Card> deck = new Deck<Card>();
 		
 		// add 52 cards to the deck
@@ -16,4 +17,9 @@ public class App {
 			System.out.println(c);
 		}
 	}
+	
+	public static void main(String[] args) {
+		new App().runTest();
+	}
+	
 }
