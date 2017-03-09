@@ -19,3 +19,5 @@
   - Trevor Page's [Java Generics Tutorial](https://youtu.be/9tHLV0u87G4).  This is a excellent review of Generics.  Please watch this video if you are still confused about generics.
 
   - Paul Programming's [Introduction to Hash Table](https://youtu.be/MfhjkfocRR0). A nice soft introduction to hash table.  Note that Paul's last name is not his real last name.
+
+- **3/10/2017** [Homework 2](Homework2.md) has been posted.
