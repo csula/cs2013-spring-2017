@@ -1,6 +1,6 @@
 # Homework 2
 
-* Due: 3/23 -- late homework not accepted
+* Due: 4/4 -- late homework not accepted
 * Up to two students may collaborate; please be prepared to discuss individual contributions
 
 ## Overview
