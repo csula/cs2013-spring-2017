@@ -51,4 +51,14 @@ public class Deck<E extends Comparable<E>> {
 	}
 	
 	private ArrayList<E> dataCollection = new ArrayList<E>();
+
+	public Card removeRear() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void insertFront(Card card) {
+		// TODO Auto-generated method stub
+		
+	}
 }
