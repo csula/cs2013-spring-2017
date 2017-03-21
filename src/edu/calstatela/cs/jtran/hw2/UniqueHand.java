@@ -23,4 +23,20 @@ public class UniqueHand extends Hand {
 
 	@SuppressWarnings("unused")
 	private MySet<Card> cards;
+
+	public int count() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public boolean has(Card card) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public int calculateScore() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
