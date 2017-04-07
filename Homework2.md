@@ -61,7 +61,12 @@ Score: 53
 
 ### Multi-Player Player `Unique Last Hand`
 
-More details to follow.
+For the multiplayer game, simply loop around to run the single player multiple times.
+
+### Bonus assignment
+
+You will need to replace `MySet` with the built-in `TreeSet` implementation and do timing.  Please discuss performance as it is related to whether an algorithm is O(n) or O(n^2) or O(log n) etc.
+
 
 ## Grading Scale/Criteria
 
