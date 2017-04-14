@@ -115,23 +115,27 @@ end procedure
 
 ```
 algorithm partition(A, lo, hi) is
-    pivot := A[lo]
+    pivotValue := A[lo]
     i := lo - 1
     j := hi + 1
-    loop forever
-        do
+    loop forever {
+        do {
             i := i + 1
-        while A[i] < pivot
+        } while A[i] < pivotValue
 
-        do
+        do {
             j := j - 1
-        while A[j] > pivot
+        } while A[j] > pivotValue
 
-        if i >= j then
+        if i >= j then {
             return j
+        }
 
-        swap A[i] with A[j]
-
+        tmp = A[i]
+        A[i] = A[j] 
+        A[j] = tmp
+    }
+     
 algorithm quicksort(A, lo, hi) is
     if lo < hi then
         p := partition(A, lo, hi)

@@ -5,9 +5,9 @@ public class InsertionSort {
 	public void sort(int a[]) {
 		int holePosition, valueToInsert;
 		
-		for (int i = 1; i <= a.length; i++) {
+		for (int i = 1; i < a.length; i++) {
 			valueToInsert = a[i];
-			holePosition = i;
+			holePosition = i - 1;
 			while ( holePosition > 0 && a[holePosition - 1] > valueToInsert ) {
 				a[holePosition] = a[holePosition - 1];
 				holePosition = holePosition - 1;
