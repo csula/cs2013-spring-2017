@@ -6,7 +6,7 @@ public class App {
 	public static void main(String[] args) {
 		try {
 			Graph g = new Graph(new File("graph.txt"));
-			System.out.println( g.getDistance( 1, 4) );
+			System.out.println( g.getDistance( 5, 4) );
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

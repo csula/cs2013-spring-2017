@@ -6,6 +6,8 @@ public class Edge {
 	final double weight;
 	
 	public Edge(Vertex v1, Vertex v2, final double w) {
-		this.v1 = v1; this.v2 = v2; this.weight = w;
+		this.v1 = v1; 
+		this.v2 = v2; 
+		this.weight = w;
 	}
 }
