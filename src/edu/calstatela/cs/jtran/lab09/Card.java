@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab9;
+package edu.calstatela.cs.jtran.lab09;
 
 public class Card implements Comparable<Card> {
 	String suit;

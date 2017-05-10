@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab5;
+package edu.calstatela.cs.jtran.lab05;
 
 public class MyStack<E> {
 	public MyStack(int sz) {

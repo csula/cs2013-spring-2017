@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab6;
+package edu.calstatela.cs.jtran.lab06;
 
 import java.util.PriorityQueue;
 

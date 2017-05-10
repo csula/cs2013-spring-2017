@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab2;
+package edu.calstatela.cs.jtran.lab02;
 
 public class PrintNumbers {
 

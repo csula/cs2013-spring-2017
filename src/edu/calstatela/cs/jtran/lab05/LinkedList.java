@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab5;
+package edu.calstatela.cs.jtran.lab05;
 
 /*
  * This implementation of a linked list is actually a queue

@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab7;
+package edu.calstatela.cs.jtran.lab07;
 
 public class App {
 

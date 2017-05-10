@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab1;
+package edu.calstatela.cs.jtran.lab01;
 
 public class Palindrone {
 

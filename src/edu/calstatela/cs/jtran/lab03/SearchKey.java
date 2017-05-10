@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab3;
+package edu.calstatela.cs.jtran.lab03;
 
 public class SearchKey {
 

@@ -1,4 +1,4 @@
-package edu.calstatela.cs.jtran.lab8;
+package edu.calstatela.cs.jtran.lab08;
 
 import java.util.ArrayList;
 
