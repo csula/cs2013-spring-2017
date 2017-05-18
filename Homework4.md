@@ -8,8 +8,13 @@
 For this homework assignment you will do two programming assignments:
 
 1. Implement the Red Black Tree remove function
-2. Implement the A* Algorithm; given a graph, determine the path from start to finish (more details to follow)
+2. Implement the A* Algorithm; given a graph, determine the path from start to finish
 
+You should construct a simple dataset that validates your algorithm's correctness.
+
+## Project
+
+Implement a multithread version of the A* algorithm.  Your program should run the A* in parallel.
 
 ## Grading Scale/Criteria
 
