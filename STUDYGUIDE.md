@@ -15,4 +15,5 @@ Data Structures and Algorithms
   - Tree implementation or hash implementation
 - Sorting Algorithms
   - Compare 4 sorting algorithms (know pros and cons)
-- Focus on O(*)
+
+- For everything in this course focus on O(*)
